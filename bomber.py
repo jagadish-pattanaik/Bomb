@@ -278,8 +278,6 @@ def workernode(mode, cc, target, count, delay, max_threads):
             jobs = []
             for i in range(count-success):
                 jobs.append(executor.submit(api.hit))
-                jobs.append(executor.submit(api.hit))
-                jobs.append(executor.submit(api.hit))
 
             for job in as_completed(jobs):
                 result = job.result()
