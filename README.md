@@ -2,7 +2,6 @@
   <br>
   <a href="https://github.com/jagadish-pattanaik/Bomb"><img src="" alt="Bomb"></a>
   <br>
-  Bomb v2.1b
   <br>
 </h1>
 
